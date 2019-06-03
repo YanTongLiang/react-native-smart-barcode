@@ -15,7 +15,7 @@ The library uses [https://github.com/zxing/zxing][1] to decode the barcodes for 
 ## Installation
 
 ```
-npm install react-native-smart-barcode --save
+npm install git+https://github.com/YanTongLiang/react-native-smart-barcode
 ```
 
 ## Notice
