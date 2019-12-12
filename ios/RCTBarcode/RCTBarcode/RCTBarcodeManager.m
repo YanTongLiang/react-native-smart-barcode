@@ -113,7 +113,7 @@ RCT_EXPORT_METHOD(startSession) {
         
 //        NSLog(@"self.metadataOutput = %@", self.metadataOutput);
         
-              AVAuthorizationStatus authStatus = [AVCaptureDevice authorizationStatusForMediaType:mediaType];
+              AVAuthorizationStatus authStatus = [AVCaptureDevice authorizationStatusForMediaType:AVMediaTypeVideo];
         if(authStatus == AVAuthorizationStatusRestricted || authStatus == AVAuthorizationStatusDenied){
             NSLog(@"相机权限受限");
             return;
